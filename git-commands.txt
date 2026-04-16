@@ -1,0 +1,142 @@
+Perfect 👌🔥
+You want to add **all Git commands we learned so far** inside your `git-commands.txt` file.
+
+You can copy this content and paste inside your file 👇
+
+---
+
+# 📘 GIT COMMANDS PRACTICE – Neha
+
+---
+
+## 1️⃣ Initialize Repository
+
+```bash
+git init
+```
+
+👉 Creates a new Git repository in the current folder.
+👉 It creates a hidden `.git` directory to track changes.
+
+---
+
+## 2️⃣ Check Repository Status
+
+```bash
+git status
+```
+
+👉 Shows:
+
+* Untracked files
+* Modified files
+* Staged files
+* Current branch name
+
+---
+
+## 3️⃣ Add File to Staging Area
+
+```bash
+git add git-commands.txt
+```
+
+👉 Moves file from **Working Directory → Staging Area**
+
+Add all files:
+
+```bash
+git add .
+```
+
+---
+
+## 4️⃣ Commit Changes
+
+```bash
+git commit -m "Your message"
+```
+
+👉 Saves staged changes permanently in local repository.
+👉 Each commit has a unique commit ID.
+
+---
+
+## 5️⃣ Set Global Username & Email
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+Check config:
+
+```bash
+git config --list
+```
+
+Remove global config:
+
+```bash
+git config --global --unset user.name
+git config --global --unset user.email
+```
+
+---
+
+## 6️⃣ Connect Local Repo to GitHub
+
+```bash
+git remote add origin <repository-URL>
+```
+
+Check remote:
+
+```bash
+git remote -v
+```
+
+Change remote URL:
+
+```bash
+git remote set-url origin <new-URL>
+```
+
+---
+
+## 7️⃣ Push Code to GitHub
+
+```bash
+git push origin master
+```
+
+👉 Pushes local commits to GitHub repository.
+
+---
+
+## 8️⃣ Untracked Files Meaning
+
+👉 Files that are present in folder but not tracked by Git.
+👉 Git will not include them in commit unless added using `git add`.
+
+---
+
+## 9️⃣ Basic Git Workflow
+
+1. Modify file
+2. `git status`
+3. `git add <file>`
+4. `git commit -m "message"`
+5. `git push origin master`
+
+---
+
+# 🎯 Interview Line (Very Important)
+
+> Git is a distributed version control system used to track changes in source code and manage collaboration efficiently.
+
+---
+
+
+```
+
